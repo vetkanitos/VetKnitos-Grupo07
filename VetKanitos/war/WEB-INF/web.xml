@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>Kanitos</servlet-name>
+		<servlet-class>pw2.KanitosServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Kanitos</servlet-name>
+		<url-pattern>/kanitos</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	
+	
+	<servlet>
+		<servlet-name>GmailServlet</servlet-name>
+		<servlet-class>pw2.GmailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GmailServlet</servlet-name>
+		<url-pattern>/GmailServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>CerrarServlet</servlet-name>
+		<servlet-class>pw2.CerrarServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CerrarServlet</servlet-name>
+		<url-pattern>/CerrarServlet</url-pattern>
+	</servlet-mapping>
+<servlet>
+		<servlet-name>RegistrarComentario</servlet-name>
+		<servlet-class>pw2.RegistrarComentario</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistrarComentario</servlet-name>
+		<url-pattern>/RegistrarComentario</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RegistrarAdmin</servlet-name>
+		<servlet-class>pw2.RegistrarAdmin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistrarAdmin</servlet-name>
+		<url-pattern>/RegistrarAdmin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RegistrarCliente</servlet-name>
+		<servlet-class>pw2.RegistrarCliente</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistrarCliente</servlet-name>
+		<url-pattern>/RegistrarCliente</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RegistrarMedico</servlet-name>
+		<servlet-class>pw2.RegistrarMedico</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistrarMedico</servlet-name>
+		<url-pattern>/RegistrarMedico</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RegistrarMascota</servlet-name>
+		<servlet-class>pw2.RegistrarMascota</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistrarMascota</servlet-name>
+		<url-pattern>/RegistrarMascota</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>RegistrarReceta</servlet-name>
+		<servlet-class>pw2.RegistrarReceta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistrarReceta</servlet-name>
+		<url-pattern>/RegistrarReceta</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>RegistrarHistoria</servlet-name>
+		<servlet-class>pw2.RegistrarHistoria</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistrarHistoria</servlet-name>
+		<url-pattern>/RegistrarHistoria</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+		<servlet-name>BorrarMedico</servlet-name>
+		<servlet-class>pw2.BorrarMedico</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarMedico</servlet-name>
+		<url-pattern>/BorrarMedico</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+		<servlet-name>RegistrarAdopMasc</servlet-name>
+		<servlet-class>pw2.RegistrarAdopMasc</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistrarAdopMasc</servlet-name>
+		<url-pattern>/RegistrarAdopMasc</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+		<servlet-name>BuscarHistoria</servlet-name>
+		<servlet-class>pw2.BuscarHistoria</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BuscarHistoria</servlet-name>
+		<url-pattern>/BuscarHistoria</url-pattern>
+	</servlet-mapping>
+	
+		 <servlet>
+		<servlet-name>BuscarMascota </servlet-name>
+		<servlet-class>pw2.BuscarMascota </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BuscarMascota</servlet-name>
+		<url-pattern>/BuscarMascota</url-pattern>
+	</servlet-mapping>
+
+</web-app>
